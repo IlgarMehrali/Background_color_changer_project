@@ -36,6 +36,16 @@ function draw()
     background("red");
   }
 
+  if (keyIsDown(ENTER))
+  {
+    background("black");
+  }
+  
+  if (keyIsDown(BACKSPACE))
+  {
+    background("gray");
+  }
+
 
   
   drawSprites();
